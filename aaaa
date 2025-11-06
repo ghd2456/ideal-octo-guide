@@ -1,2 +1,21 @@
 git config --global user.name "Dasha"
 git config --global user.email "aaaen982@gmail.com"
+mkdir technomir
+cd technomir
+git init
+# Создаем файл README.md с описанием проекта
+echo "# ТехноМир" > README.md
+echo "## Лучшая бытовая техника для вашего дома" >> README.md
+
+# Создаем основную HTML-страницу
+echo "<!DOCTYPE html>" > index.html
+echo "<html>" >> index.html
+echo "<body>" >> index.html
+echo "<h1>ТехноМир</h1>" >> index.html
+echo "<p>Главная Каталог Корзина Поддержка</p>" >> index.html
+echo "</body>" >> index.html
+echo "</html>" >> index.html
+
+# Создаем папку для стилей и файл CSS
+mkdir css
+echo "body { font-family: Arial; }" > css/style.css
